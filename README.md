@@ -91,7 +91,7 @@ More: [docs/tech-stack.md](docs/tech-stack.md)
 | [tech-stack.md](docs/tech-stack.md) | Each tool and the sponsor integrations |
 | [hack-day-plan.md](docs/hack-day-plan.md) | Team roles and the 24-hour build plan |
 
-## Team Nexora
+## Team Prompters
 
 | Member | Role on hack day |
 |---|---|
