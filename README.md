@@ -53,7 +53,7 @@ More: [docs/insight-engines.md](docs/insight-engines.md)
 
 ## Architecture
 
-![Architecture diagram](docs/architecture.png)
+![Architecture diagram](docs/architecture.jpeg)
 
 Parsing happens on the phone. The cloud and AI see only daily features, never messages, search text, payment amounts or GPS.
 
