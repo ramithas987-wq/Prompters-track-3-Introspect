@@ -8,7 +8,7 @@
 | Event | wHACKiest 2026 Online Ideathon |
 | Track | 3 – Know Thyself: Your Data. Your Intelligence. |
 | Pitch deck | [Google Drive link](https://docs.google.com/presentation/d/1mG_06KpK5gE41TG4mmy96CA90kKzHhhr/edit?usp=drive_link&ouid=105703660470407094081&rtpof=true&sd=true) |
-| Video pitch | [YouTube link](PASTE_YOUTUBE_LINK) |
+| Video pitch | [YouTube link](https://youtu.be/trRLb4bkxec?si=NItZYf4t4CHDUjS_) |
 
 > **Blueprint phase.** Per wHACKiest rules, this repository currently holds the design and plans only. Code will be added here during the 24-hour hack day.
 
