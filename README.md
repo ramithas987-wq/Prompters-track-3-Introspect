@@ -1,13 +1,13 @@
 #Introspect
-**Zero-input self-knowledge.** Nosce (Latin for "know thyself") turns the data trail you already leave behind into warnings, forecasts and proof of what works for you.
+**Zero-input self-knowledge.** turns the data trail you already leave behind into warnings, forecasts and proof of what works for you.
 
 | | |
 |---|---|
-| Team | Nexora |
+| Team | prompters |
 | College | Dayananda Sagar Academy of Technology and Management |
 | Event | wHACKiest 2026 Online Ideathon |
 | Track | 3 – Know Thyself: Your Data. Your Intelligence. |
-| Pitch deck | [Google Drive link](PASTE_DRIVE_LINK) |
+| Pitch deck | [Google Drive link](https://docs.google.com/presentation/d/1mG_06KpK5gE41TG4mmy96CA90kKzHhhr/edit?usp=drive_link&ouid=105703660470407094081&rtpof=true&sd=true) |
 | Video pitch | [YouTube link](PASTE_YOUTUBE_LINK) |
 
 > **Blueprint phase.** Per wHACKiest rules, this repository currently holds the design and plans only. Code will be added here during the 24-hour hack day.
@@ -63,12 +63,12 @@ Details: [docs/architecture.md](docs/architecture.md) · Privacy: [docs/privacy.
 
 | Layer | Choice | Job |
 |---|---|---|
-| App | Kotlin + Jetpack Compose (Android) | Usage access, notification listener, alarms; insight cards, body clock, what-if |
+| App | React + vite + Tailwind CSS | Responsive laptop dashboard with interactive screens, insight cards and visualizations |
 | Backend | Python FastAPI on AWS Lambda | Sync, insights, what-if and brief endpoints, as a container image |
-| Data | Room + SQLCipher on phone; Amazon DynamoDB | Raw data encrypted on the phone; only daily features sync, encrypted with AWS KMS |
-| AI / ML | Statistics, LightGBM, SHAP, Amazon Bedrock | Sleep inference, baselines, matched-day comparisons, explained forecast, plain-language insights |
-| Cloud (AWS) | Lambda, DynamoDB, S3, KMS, EventBridge | Serverless API; per-user model in S3; EventBridge Scheduler times nudges |
-| Voice (ElevenLabs) | ElevenLabs Text to Speech | 60-second morning brief and a weekly audio "Wrapped", in English, Hindi or Kannada |
+| Data | Supabase(PostgreSQL) | Stores user profiles, daily health records and structured data with Row Level Security (RLS) |
+| AI / ML | Pandas + NumPy + Gemini API | Statistical analysis, personalized baselines, pattern detection, trend identification and AI-powered insights |
+| Data Collection |Health Connect + StatsManager (Kotlin) + WorkManager | Collects health and activity data through Android background services |
+| Integration | Google calendar API | Integrates calendar data to identify schedule patterns and provide context-aware insights |
 
 More: [docs/tech-stack.md](docs/tech-stack.md)
 
@@ -95,9 +95,9 @@ More: [docs/tech-stack.md](docs/tech-stack.md)
 
 | Member | Role on hack day |
 |---|---|
-| [Name] (Lead) | Backend: FastAPI on Lambda, sync, DynamoDB, EventBridge |
-| [Name] | Android: collectors, notification listener, Takeout importer |
-| [Name] | Android UI: insight cards, body clock, what-if slider |
-| [Name] | Data and AI: sleep inference, baselines, levers, LightGBM + SHAP, Bedrock, ElevenLabs |
+| [Prathith h v] (Lead) | Backend: FastAPI on Lambda, sync, Supabase |
+| [R Deepa Mahesh Babu] | Android: collectors, notification listener, Takeout importer |
+| [Shashidhar] | Android UI: insight cards, body clock, what-if slider |
+| [Ramitha S] | Data and AI: sleep inference, baselines, levers, LightGBM + SHAP, Bedrock |
 
-*Nosce is a wellness tool, not a medical device. It suggests seeing a doctor when it spots warning signs.*
+*Introspect is a wellness tool, not a medical device. It suggests seeing a doctor when it spots warning signs.*
